@@ -13,7 +13,8 @@ struct Point {
 
 void super_draw (const void * class, const void * self);
 
-struct PointClass {
+struct PointClass
+{
 	const struct Class _;			/* PointClass : Class */
 	void (* draw) (const void * self);
 };
