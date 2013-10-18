@@ -3,7 +3,8 @@
 
 #include "Object.r"
 
-struct Point { const struct Object _;	/* Point : Object */
+struct Point {
+	const struct Object _;	/* Point : Object */
 	int x, y;				/* coordinates */
 };
 
